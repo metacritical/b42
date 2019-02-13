@@ -1,3 +1,4 @@
-{:deps 
+{:deps
  {org.clojure/clojurescript {:mvn/version "1.10.439"}
-  reagent {:mvn/version "0.8.1"}}}
+  reagent {:mvn/version "0.8.1"}
+  tortue/spy {:mvn/version "1.4.0"}}}

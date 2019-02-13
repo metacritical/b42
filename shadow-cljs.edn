@@ -1,12 +1,12 @@
 {:dependencies [[reagent "0.8.1"]
-                [replumb/replumb "0.2.1"]]
+                [keybind "2.2.0"]
+                [tortue/spy "1.4.0"]]
  :source-paths ["src"]
- :deps true
  :builds {:main {:target :node-script
                  :output-to "app/main.js"
                  :optimizations :simple
                  :main app.main.core/main}
-          
+
           :bootstrap {:target :bootstrap
                       :output-dir "app/bootstrap/"
                       :entries [cljs.js cljs.core]

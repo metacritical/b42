@@ -2,7 +2,7 @@
 
 (defn webview []
   [:webview {:id "webview"
-             :src "https://youtu.be/ITjYq18zlwA"
+             :src "https://google.com"
              :useragent "B42 Browser/0.0.1 Chrome/71.0.3578.98 Safari/537.36"
              :style {:display :inline-flex
                      :position "fixed"
@@ -26,3 +26,4 @@
 
 (defn app-view []
   [:div {:style {:width "auto"}} [webview][minibuffer]])
+    

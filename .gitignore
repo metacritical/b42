@@ -10,4 +10,4 @@ app/main.js
 app/renderer.js
 app/cljs-runtime/
 app/manifest.edn
-index.html
+index.html.nrepl-port
